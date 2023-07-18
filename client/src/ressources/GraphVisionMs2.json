@@ -1,0 +1,115 @@
+{
+  "environment": [
+    {
+      "id": "edithor_rec1",
+      "name": "rec1",
+      "application": "EDITHOR",
+      "release": "1.104",
+      "up": true
+    },
+    {
+      "id": "edithor_recqpm4",
+      "name": "recqpm4",
+      "application": "EDITHOR",
+      "release": "1.103",
+      "up": false
+    },
+    {
+      "id": "edithor_recqpm9",
+      "name": "recqpm9",
+      "application": "EDITHOR",
+      "release": "1.103",
+      "up": true
+    },
+    {
+      "id": "katalog_rec1",
+      "name": "ktg1",
+      "application": "KATALOG",
+      "release": "1.104",
+      "up": true
+    },
+    {
+      "id": "katalog_recqpm4",
+      "name": "ktgqpm4",
+      "application": "KATALOG",
+      "release": "1.103",
+      "up": false
+    },
+    {
+      "id": "katalog_recqpm9",
+      "name": "ktgqpm9",
+      "application": "KATALOG",
+      "release": "1.103",
+      "up": true
+    },
+    {
+      "id": "msh_rec1",
+      "name": "rec1",
+      "application": "MSH",
+      "release": "2.10",
+      "up": true
+    },
+    {
+      "id": "msh_recqpm4",
+      "name": "rec4",
+      "application": "MSH",
+      "release": "2.9",
+      "up": false
+    },
+    {
+      "id": "msh_recqpm9",
+      "name": "rec9",
+      "application": "MSH",
+      "release": "2.9",
+      "up": true
+    },
+    {
+      "id": "vch_rec1",
+      "name": "rec1",
+      "application": "VCH",
+      "release": "1.10",
+      "up": true
+    },
+    {
+      "id": "vch_recqpm",
+      "name": "qpm",
+      "application": "VCH",
+      "release": "1.9",
+      "up": true
+    }
+  ],
+  "links": [
+    {
+      "source": "edithor_rec1",
+      "target": "katalog_rec1"
+    },
+    {
+      "source": "edithor_recqpm4",
+      "target": "katalog_recqpm4"
+    },
+    {
+      "source": "edithor_recqpm9",
+      "target": "katalog_recqpm9"
+    },
+    {
+      "source": "katalog_rec1",
+      "target": "msh_rec1"
+    },
+    {
+      "source": "katalog_recqpm4",
+      "target": "msh_recqpm4"
+    },
+    {
+      "source": "katalog_recqpm9",
+      "target": "msh_recqpm9"
+    },
+    {
+      "source": "katalog_rec1",
+      "target": "vch_rec1"
+    },
+    {
+      "source": "katalog_recqpm4",
+      "target": "vch_recqpm"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+[
+    {
+        "_id": "637c93d412356ccdd7ccdeab",
+        "id": "1",
+        "Label": "ADDOO",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Ordonnancer les activités sur le réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "NORIA, BODEGA, VASCO",
+        "description carto": "Permet dans le cadre des déploiements GSM, UMTS et LTE de gérer le suivi de demandes d'opérations, d'aménagement ou de réaménagement de sites",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeac",
+        "Label": "ADECOAT",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "CASPER SUPNEXT, SPOT_MODULE_COLLECTE",
+        "description carto": "ADECOAT est une application utilisée pour superviser en temps réel des trafics ciblés sur les domaines international et VoIP du réseau IBNF.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdead",
+        "Label": "ADELIA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Analyser l’impact réseau et service",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "ORCHESTRA",
+        "description carto": "Gisement des impacts des incidents et des travaux programmés pour les domaines ADSL/RTC/Boucle Locale Cuivre/Boucle Locale Optique",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeae",
+        "Label": "ALISA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer les accès Internet",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "description carto": "Interface d'activation de services Internet"
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeaf",
+        "Label": "APS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Liens": "REGINA_COLLECTE",
+        "description carto": "Activité des Pôles de Supervision;Historisation des alarmes présentées par l'application IADR",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb0",
+        "Label": "BANJO",
+        "Liens": "ODYSSEE, DIAMANTS",
+        "description carto": "Référentiel des MSISDN Orange France mobile",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb1",
+        "Label": "BDE SITE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le cycle de vie des sites",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "NORIA",
+        "description carto": "Assurer la gestion des données de référence des sites hébergeant les antennes d'Orange France",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb2",
+        "Label": "BDREF",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer la configuration et le paramétrage du RAN",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "NORIA",
+        "description carto": "Contrôle et configure des paramètres logiciels sur les éléments du réseau d'accès mobile. Gère également l'ajout/suppression de voisinages.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb3",
+        "Label": "BODEGA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Ordonnancer les activités sur le réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "NORIA, COMSIS, GESTLL, ADDOO, SOPHIE",
+        "description carto": "Assurer le suivi de la production des sites radio Mobile ;A partir de la G3R0 (Juillet 2017), l'application est connue sous le nom de NEWBODEGA.",
+        "Interaction": 5
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb4",
+        "Label": "CASPER SUPNEXT",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "ADECOAT",
+        "description carto": "Superviseur de trafic Temps réel du trafic voix IBNF (CTI4G, Call Serveur et Sonus), interco RTC/IP (Call Serveur), entreprise (Call Serveur et PFS) et NEO (Call serveur NEO)",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb5",
+        "Label": "CASPER SUPTRAF - G2",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "CECOSANE, NEW",
+        "description carto": "Supervision de trafic Netrac pour le Core Network basée sur le GCC CASPER;Utilisation de l'outil par le TMC-RM limitée aux nouveaux équipements qui sont déployés ;les NG MSC Ericsson;les routeurs IP;les HBSC (Unik);les plate-formes IMS",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb6",
+        "Label": "CASPER VOIP",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "OSDI_IMS",
+        "description carto": "Casper VoIP est l'application de supervision de la QoS des services de Téléphonie Fixe;Domaine historique VoIP et depuis début 2017 RTC.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb7",
+        "Label": "CATS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer les services sur les PFS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "SEP, TSI",
+        "description carto": "CATS = Configuration et AcTivation de Services;Application responsable de l'activation et la configuration des plates-formes de services Voix sur IP sur techno SIP;NB : Les interfaces avec la plate-forme E/// ne sont pas décrites dans l'onglet flux",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb8",
+        "Label": "CC VOD NEW TV",
+        "Sous-Domaine": "Supervision QS & Data",
+        "description carto": "Module Customer Care pour New TV (analyse des incidents sur les VODs et gestion des remboursements/réattribution de droits)"
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeb9",
+        "Label": "CECOSANE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "CASPER SUPTRAF, IMPAQT",
+        "description carto": "Collecter et mettre à disposition les compteurs des équipements 3G, 4G et GPRS pour superviser la qualité de service et le trafic en temps réel sur le réseau NSS.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeba",
+        "Label": "COMSIS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel des fréquences du réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "NETACT PLANNER, NORIA, BODEGA, BDE_SITE",
+        "description carto": "Déclaration des sites et des bandes de fréquence à l'ANFR;CONCORDDE : cette application permet de gérer les flux de données, informations et documents divers relatifs à toutes les consultations effectuées auprès de l'ANFR des sites et des services COMSIS (ex'CORESTA' );consultations par l'ANFR sur des projets de statuions d'une entité d'ORANGE (consultations dites 'sortantes');consultations d'ORANGE sur des projets de stations des autres exploitants de stations de radio (consultations dites 'entrante')",
+        "Interaction": 4
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdebb",
+        "Label": "DECRIS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer et piloter les incidents",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "NORIA",
+        "description carto": "Outil de gestion de crise lors d'evenements climatiques.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdebc",
+        "Label": "DIAMANTS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer la production des cartes et profil SIM/eSIM vis-à-vis des encarteurs",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "ODYSSEE, SGRT, BANJO",
+        "description carto": "• Gestion des commandes de personnalisation de cartes SIM;Stockage des données et clés des cartes SIM;Gestion du cycle de vie des cartes SIM; Mise à disposition pour le SI Commercial des numéros de série des cartes (NSCE) et des MSISDN (y compris MSISDN 15D);Gestion du cycle de vie des MSISDN 15D",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdebd",
+        "Label": "ESPACE COLLABORATIF IMS",
+        "Pôle Exploitant cible": "Rzo Mobile"
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdebe",
+        "Label": "GESTLL",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Commander et suivre les services de connectivités utilisés par le réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "NORIA, BODEGA",
+        "description carto": "L'application GestLL permet la gestion des données techniques et commerciales relatives aux liaisons louées (aircom, transfix, tdm 2m, smhd, zone locale, collocalisées) et services d'accès (boucle smhd, rsc, rsr) du réseau cellulaire d'Orange France.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdebf",
+        "Label": "IMPAQT",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le capacitaire réseau",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "CECOSANE",
+        "description carto": "Infocentre métier pour l’analyse de la performance et de la Qos du réseau cœur Orange.;Collecte et mise à disposition des compteurs des équipements NG Ericsson et Alcatel 2G.;Calcul d’agrégats et d’indicateurs...",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec0",
+        "Label": "IRMA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Analyser et capitaliser sur les incidents",
+        "Sous-Domaine": "Supervision QS & Data",
+        "description carto": "IRMA signifie Information Request and Management of Anomaly. C'est l'outil Groupe pour le management des anomalies réseaux."
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec1",
+        "Label": "KOA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Diagnostiquer les Services fixes RTC, HD (Internet, VOIP, TV)",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "TALIA",
+        "description carto": "Système permettant d'offrir aux acteurs du SAV une vision Service du diagnostic client",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec2",
+        "Label": "KORALIA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le capacitaire réseau",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "NEW PERF COLLECTE MEDIATION, SOPRANE",
+        "description carto": "Fournir des informations pertinentes et nécessaires pour l'analyse du trafic ADSL, IP, ATM, OT et GE à des fins de dimensionnement et d'étude d'usage du réseau",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec3",
+        "Label": "MEDIADSL",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les logs et alarmes",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "NEW PERF COLLECTE MEDIATION, SOPRANE, ORCHESTRA",
+        "description carto": "Supervision du réseau ADSL/FTTH",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec4",
+        "Label": "METEO_IP",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Superviser et troubleshooter par les maps",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "SOPRANE, NEW PERF COLLECTE MEDIATION",
+        "description carto": "Visualisation cartographique temps réel de l'état d'un réseau IP",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec5",
+        "Label": "MIRAGE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Enabler technique commun supervision et SIG",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "VASCO",
+        "description carto": "Serveur cartographique destiné à partager l'information géographique du réseau mobile au sein des applications existantes ou d'applications dédiées (GeoSWAP, MIG, Mafibre, etc).",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec6",
+        "Label": "NETACT PLANNER",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Concevoir le réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "COMSIS, PERF FH",
+        "description carto": "Outil de planification radio, utilisé pour les prédictions de couverture, l'optimisation et le design radio.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec7",
+        "Label": "NEW PERF COLLECTE MEDIATION",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "MEDIADSL, KORALIA, METEO_IP",
+        "description carto": "Application de Performance Management temps réel d'équipements;Mise en œuvre dans un premier temps sur le domaine du réseau IP : Backbone, Collecte GE, VOIP, Dslam/Olt",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec8",
+        "Label": "NEW PERF TPS REEL",
+        "Liens": "NEW PERF VISUALISATION",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdec9",
+        "Label": "NEW PERF VISUALISATION",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Superviser la performance",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "NEW PERF TPS REEL, NEW PERF COLLECTE MEDIATION",
+        "description carto": "New Perf Visualisation (NPV) est un module du projet NEW PERF.;Ce module permet la visualisation des KPIs.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeca",
+        "Label": "NORIA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel des ressources du réseau d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "BODEGA, BDE SITE, GESTLL, ADDOO, COMSIS, DECRIS",
+        "description carto": "Gérer le processus de déploiement et l'inventaire équipement du réseau Mobile 2G/3G/4G/5G et FEMTOCELL (jusqu’en août 2021).",
+        "Interaction": 6
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdecb",
+        "Label": "ODYSEE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Orchestrer la livraison des services d’accès mobile",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "DIAMANTS, CATS, BANJO, OSDP, OSDP IMS, SGRT",
+        "description carto": "L’application ODYSEE réalise la Fonction de Service Order Management (SOM) telle que définie par le TM Forum. L'objectif d'ODYSEE est de fournir aux applications BSS clientes, un point d’entrée OSS unique pour le processus de livraison et d'activation de services.",
+        "Interaction": 6
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdecc",
+        "Label": "OPTIMIZER",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Concevoir la boucle locale optique",
+        "Sous-Domaine": "Réseaux  Fixes & Services"
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdecd",
+        "Label": "ORCHESTRA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Diagnostiquer les Services fixes RTC, HD (Internet, VOIP, TV)",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "TALIA, ADELIA, MEDIADSL, SEP, TEVA, TSI, WIKIDELC",
+        "description carto": "Système permettant d'offrir aux acteurs du SAV une vision Service du diagnostic client",
+        "Interaction": 7
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdece",
+        "Label": "OSDI",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel services sur équipements HLR/HSS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "OSDP",
+        "description carto": "L’inventaire des services OSDI (Technical Service Inventory) fait partie du programme COLISE de rationalisation et de modernisation du Service Delivery du SI Orange France.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdecf",
+        "Label": "OSDI IMS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel services sur équipements HLR/HSS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "OSDP IMS",
+        "description carto": "Référentiel des services techniques du réseau IMS (IP Multiservice Subsytem) de Orange France",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded0",
+        "Label": "OSDP",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer services sur équipements HLR/HSS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "SGRT, ODYSEE, OSDI, DIAMANTS",
+        "description carto": "L'application OSDP a en charge l'activation des services de téléphonie mobile GSM : configurer de manière automatique les équipements HLR (Host Location Register) et AUC (AUthentification Center) du réseau mobile d’Orange France. Les équipements mis à jour sont les HLR Legacy et les nouveaux HLR (SDM);La migration complète des frontaux HLR (HLR Legacy) sous le nouvel équipement SDM (NgHLR distribué) a été débutée à partir de le version OSDP G1R4 et doit s'achever courant 1er semestre 2012;L'activation d'une nouvelle plate-forme est mise en oeuvre à partir de la version OSDP G1R4 : prise en charge du provisioning d'OTASIM.",
+        "Interaction": 4
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded1",
+        "Label": "OSDP IMS",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer services sur équipements HLR/HSS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "OSDI IMS, ODYSEE",
+        "description carto": "Activation et provisioning pour les offres :;BIV (nom technique : BIV-SIP);BVB (BIV-SIP_NIP);BTIC (BTIC-SIP);OPIT-ML (SIP-Trunking)",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded2",
+        "Label": "OTARIE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "NORIA",
+        "description carto": "Outil d'observation des trafics client (usage) pour les réseaux d'accès IP haut débit. OTARIE est composée d'une ou plusieurs sondes passives distribuées dans le réseau et d'un serveur qui collecte et agrège les données issues des différentes sondes.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded3",
+        "Label": "PDC",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "description carto": "PDC - Plateforme Données Client participe au service du fixe Stop Secret v2."
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded4",
+        "Label": "PERF FH",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le capacitaire réseau",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "NETACT PLANNER",
+        "description carto": "Outils de mesure de la qualité et la performance des faisceaux hertzien;Mailing list: tma.perffh@orange.com",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded5",
+        "Label": "QS NESTOR",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les logs et alarmes",
+        "Sous-Domaine": "Supervision QS & Data",
+        "description carto": "QS NESTOR est un outil de supervision du réseau transmission et le module de consultation externe est CASTLE."
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded6",
+        "Label": "REGINA_COLLECTE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les logs et alarmes",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "APS",
+        "description carto": "REtransmission et Gestion INformatisée des Alarmes",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded7",
+        "Label": "SEP",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer la portabilité des numéros de téléphone fixe",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "CATS, ORCHESTRA",
+        "description carto": "Système d'Echanges pour la Portabilité",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded8",
+        "Label": "SGRT",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer services sur équipements HLR/HSS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "DIAMANTS",
+        "description carto": "Gestion des ressources techniques (IMSI, MSISDN) du réseau GSM et activation/désactivation des dossiers clients sur les équipements réseau via l'activateur OSDP.",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccded9",
+        "Label": "SOPHIE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Suivre et analyser les coûts de déploiement",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "BODEGA",
+        "description carto": "Suivi et analyse des coûts de déploiement du réseau Mobile",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdeda",
+        "Label": "SOPRANE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le réseau ATM",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "KORALIA, METEO_IP, MEDIADSL",
+        "description carto": "Supervision du trafic et performance des réseaux: XDSL (DSLAM ATM), ATM (brasseur coeur de réseau) et à partir de la G8R0 d'OTI-IMN (routeurs IBNF)",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdedb",
+        "Label": "SPOT_FTSA",
+        "Fonction": "Superviser la performance",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "SPOT_MODULE_COLLECTE, SPOT_MODULE_CENTRAL",
+        "description carto": "Système Programmé d'Observation de Trafic",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdedc",
+        "Label": "SPOT_MODULE_CENTRAL",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "SPOT, SPOT_MODULE_COLLECTE",
+        "description carto": "Module SPOT Central de l'application SPOT.;Centralisation des données de trafic (appels et faisceaux), prise en compte des données de référence, calcul des indicateurs.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdedd",
+        "Label": "SPOT_MODULE_COLLECTE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter et enrichir les données de performance et d’usage",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "SPOT, SPOT_MODULE_CENTRAL, ADECOAT",
+        "description carto": "Réception des données brutes trafic de l’ensemble des équipements observés",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdede",
+        "Label": "TALIA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Collecter les données de test pour diagnostic",
+        "Sous-Domaine": "Supervision QS & Data",
+        "Liens": "ORCHESTRA, KOA",
+        "description carto": "L'application TALIA a pour vocation d'offrir aux postes d'accueil SAV un certain nombre de fonctionnalités de tests à la demande effectués dans les équipements xDSL (DSLAMs) ou FTTH afin de donner les premiers éléments de diagnostic à un client se plaignant de sa connexion xDSL ou FTTH",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdedf",
+        "Label": "TELGAT",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Maintenir la boucle locale optique & cuivre",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "description carto": "Gestion et supervision des équipements de pressurisation des câbles."
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee0",
+        "Label": "TEVA",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Configurer les services sur les PFS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "ORCHESTRA, TVING",
+        "description carto": "L’application TEVA (TEleVision services Activation) est un activateur de services TV pour les clients Orange France. Elle utilise tout ou partie des composants GCC proposés par le GCC SCA.;L'activation de services TV regroupe les services TV gratuits fournis dans les offres d'Orange France et les services payants tels que les bouquets TV payants ou encore les options HD et la vidéo à la demande.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee1",
+        "Label": "TSI",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel services sur PFS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "CATS, ORCHESTRA",
+        "description carto": "L'application contient l'inventaire des services dédiés à la voix sur IP sur technologie SIP (VOIP sur SIP)",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee2",
+        "Label": "TVING",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel services sur PFS",
+        "Sous-Domaine": "Réseaux Mobiles & Services",
+        "Liens": "TEVA, ORCHESTRA",
+        "description carto": "TVING (TV Inventory New Generation) est le nouveau référentiel des services techniques relatifs à l'offre TV d'un client qui permet de fiabiliser le processus de commande / livraison, de diffuser ces informations au Revenue Assurance.",
+        "Interaction": 2
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee3",
+        "Label": "VASCO",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Fonction": "Gérer le référentiel géographique des réseaux",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "Liens": "NORIA, ADDOO, MIRAGE",
+        "description carto": "Visualiser géographiquement la couverture radio (gsm/gprs/umts/hsdpa) et les équipements du réseau d'Orange France.",
+        "Interaction": 3
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee4",
+        "Label": "WIKIDELC",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Liens": "ORCHESTRA",
+        "description carto": "Documentation destiné aux utilisateurs des tests DELC - Orchestra",
+        "Interaction": 1
+    },
+    {
+        "_id": "637c93d412356ccdd7ccdee5",
+        "Label": "WORACE",
+        "Pôle Exploitant cible": "Rzo Mobile",
+        "Sous-Domaine": "Réseaux  Fixes & Services",
+        "description carto": "l'application gère le workflow de la demande accréditation des intervenants dans les bâtiments+ de l'administration"
+    }
+]
